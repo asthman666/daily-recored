@@ -1,0 +1,7 @@
+1) path/to/key+Could not open a connection to your authentication agent
+
+exec ssh-agent bash
+
+重新生成需要添加的key
+
+ssh-add path/to/key
