@@ -5,3 +5,5 @@ exec ssh-agent bash
 重新生成需要添加的key
 
 ssh-add path/to/key
+
+2) eval `ssh-agent`
