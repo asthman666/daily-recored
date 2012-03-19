@@ -5,3 +5,17 @@ git status
 2) Skipping the Staging Area
 
 use '-a' option to the 'git commit' command makes Git automatically stage every file that is already tracked before doing the commit, letting you skip the git add part
+
+3) Removing Files
+
+git rm file
+
+If you modified the file and added it to the index already, you must force the removal with the '-f' option
+
+git rm --cached file, you may want to keep the file on your hard drive but not have Git track it anymore
+
+4) Moving Files
+
+git mv file_from file_to
+
+mv file_from file_to && git rm file_from && git add file_to
