@@ -1,1 +1,5 @@
 1) hdparm -tT /dev/sda
+
+2) move to n char
+
+n|
