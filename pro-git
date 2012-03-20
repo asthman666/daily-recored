@@ -19,3 +19,41 @@ git rm --cached file, you may want to keep the file on your hard drive but not h
 git mv file_from file_to
 
 mv file_from file_to && git rm file_from && git add file_to
+
+5) Unstaging a Staged File
+
+git reset HEAD <file>
+
+6) Unmodifying a Modified File
+
+git checkout -- <file>
+
+7) Showing Your Remotes
+
+git remote -v
+
+8) Adding Remote Repositories
+
+git remote add origin git@github:putaotao/python-study.git
+
+9) Fetching and Pulling from Your Remotes
+
+git fetch [remote-name]
+git pull
+
+10) Pushing to Your Remotes
+
+git push [remote-name] [branch-name]
+git push origin master
+
+This command works only if you cloned from a server to which you have write access and if nobody has pushed in the meantime.
+
+11) Inspeckting a Remote
+
+git remote show origin 
+
+12) Removing and Renaming Remotes
+
+git remote rename from_name to_name
+
+git remote rm need_to_delete_name
