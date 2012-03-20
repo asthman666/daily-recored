@@ -19,7 +19,6 @@ git rm --cached file, you may want to keep the file on your hard drive but not h
 git mv file_from file_to
 
 mv file_from file_to && git rm file_from && git add file_to
-<<<<<<< HEAD
 
 5) Unstaging a Staged File
 
@@ -58,5 +57,3 @@ git remote show origin
 git remote rename from_name to_name
 
 git remote rm need_to_delete_name
-=======
->>>>>>> 2743c328f35d0e2fc5d1a240373df36cd0d0343b
